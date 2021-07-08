@@ -11,6 +11,9 @@ public class Rotate {
         System.out.println(Arrays.toString(nums));
         System.out.println(Arrays.toString(rotate(nums,k)));
     }
+
+
+
     public static int[] rotate(int[] nums, int k){
         List<Integer> newList = new ArrayList<>();
         for(int i =nums.length-k; i < nums.length; i++){

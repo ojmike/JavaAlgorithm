@@ -1,12 +1,8 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-class Result {
+class HourglassSum {
     public static void main(String[] args) {
         List<List<Integer>> listList = new ArrayList<>();
         listList.add(new ArrayList<>(List.of(-9, -9, -9, 1, 1, 1)));
